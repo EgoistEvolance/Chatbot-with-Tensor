@@ -1,0 +1,27 @@
+{"intents" : [
+    {"tag" : "salam",
+        "patterns": ["hallo","hello","hey","hi","bisa kamu bantu saya","permisi"],
+        "responses": ["Ada yang bisa saya bantu?"]
+    },
+    {"tag" : "penutup",
+        "patterns" : ["selamat tinggal","dadah","bye","cya","goodbye","see ya","sampai ketemu lagi"],
+        "responses" :["Goodbye","Sampai ketemu lagi","jika ada sesuatu hubungi ya"]
+    },
+    {"tag" : "terimakasih",
+        "patterns" : ["Ty","Terima Kasih","Thanks","Makasih","Sangat Membantu"],
+        "responses" :["Yw","Sama-sama","Tidak Masalah","Semoga Membantu","Terima Kasih Kembali"]
+    },
+    {"tag" : "saran",
+        "patterns" : ["Saran Anime","Rekomendasi Dong","Saran Film","Ada Rekomendasi Film?","Film apa yang bagus?","Saran tempat belanja online dimana?"],
+        "responses" :["Saran aku kamu cek rekomendasi anime kesini https://www.livechart.me/","Film Spiderman No Way Home","Saran aku kamu cek rekomendasi Film kesini ya https://5.182.210.145/",
+        "kamu bisa belanja di toko online kami di tokousahamahasiswa.infinityfreeapp.com"]
+    },
+    {"tag" : "penutup",
+        "patterns" : ["selamat tinggal","Sampai Jumpa Lagi","bye","cya","goodbye","see ya","sampai ketemu lagi","Dadah"],
+        "responses" :["Goodbye","Sampai ketemu lagi","jika ada sesuatu hubungi ya"]
+    },
+    {"tag" : "perkenalan",
+        "patterns" : ["Siapa kamu","Nama kamu apa?","Kamu di ciptakan untuk apa?","kamu di buat oleh siapa?","Kenapa nama kamu QCB?"],
+        "responses" : ["Nama Saya QCB","Saya adalah QCB","Karena QCB adalah singkatan dari (Qifli Chat Bot)","Saya di buat oleh Qifli","Saya di Citakan untuk membantu anda"]
+    }
+]}
